@@ -31,25 +31,6 @@ public class SecurityConfig
 
     }
 
-/*  @Override
-    protected void configure(HttpSecurity http) throws Exception {
-        http.authorizeRequests()
-                .antMatchers("/").hasRole("USER")
-                .antMatchers("/systems/**").hasRole("ADMIN")
-                .anyRequest().authenticated()
-                .and()
-                .formLogin()
-                .loginPage("/showMyLoginPage")
-                .loginProcessingUrl("/authenticateTheUser")
-                *//*.defaultSuccessUrl("/success", true)*//*
-                .permitAll()
-                .and()
-                .logout()
-                .permitAll();
-
-        http.sessionManagement().invalidSessionUrl("/showMyLoginPage");
-}*/
-
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http.authorizeRequests()
