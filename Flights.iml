@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map>
+          <unit-entry name="hibernate.cfg.xml" value="dc097623-2b63-4b6c-b3f7-a402bc2a8c9f" />
+          <unit-entry name="sessionFactory" value="c5fc2853-5c38-492c-8829-96bcbcd617bc" />
+        </datasource-map>
+        <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/main/java/hibernate.cfg.xml" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Flight Search Servlet" removed="false">
+          <file>file://$MODULE_DIR$/src/main/webapp/WEB-INF/spring-flight-search-servlet.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+</module>
